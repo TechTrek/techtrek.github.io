@@ -31,4 +31,4 @@ tramp
 # cask packages
 .cask/
 
-less-watch-compiler.config.json
+mockups/*
