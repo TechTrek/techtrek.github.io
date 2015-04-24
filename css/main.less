@@ -1,46 +1,161 @@
-body {
-  background-color: #F5F5F5;
+
+// Global Variables
+
+@dark-blue: #062946;
+@light-beige: #F5F5F5;
+@dark-grey: #333333;
+
+.serif-font{
+	font-family: "ff-tisa-web-pro", "FF Tisa Pro";
 }
 
-.header {
+.sans-serif-font{
+	font-family: "ff-tisa-sans-web-pro", "FF Tisa Sans Pro";
+}
+
+body {
+  background-color: @light-beige;
+}
+
+h1{
+	.serif-font;
+	font-weight: 400;
+	color: @dark-blue;
+
+}
+
+h2{
+	.serif-font;
+	font-weight: 400;
+	color: @dark-blue;
+
+	
+	strong{
+		font-weight: 700;
+	}
+}
+
+h3{
+	.serif-font;
+	font-weight: 400;
+	color: @dark-blue;
+
+}
+
+h4{
+	.sans-serif-font;
+	font-weight: 400;
+	color:  @dark-grey;
+	font-size: 0.75em;
+}
+
+p{
+	.sans-serif-font;
+	color: @dark-grey;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+// Header
+
+.cover-image {
   background-image: url("../img/bridge_g.jpg");
-  width: 100%;
   height: 600px;
   background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
 
-
-  .title {
-    h1 {
-      margin-bottom: 0;
-
-      .bold {
-        font-weight: 600;
-      }
-    }
-    
-    p {
-      margin: -4px 0 10px;
-      font-size: .95em;
-    }
-  }
 }
+
+
+
+// Marquee
 
 .marquee {
-  margin-top: 50px;
-  border-style: solid;
-  border-color: #E0E0E0;
-  border-width: 1px 0;
+  margin: 80px 0px 50px 0px;
+  padding: 10px 0px 20px 0px;
+  
+  border-top: 1px solid @dark-blue;
+  border-bottom: 1px solid @dark-blue;
+
   text-align: center;
 
-  p {
+  h2 {
+	  .serif-font;
     font-style: italic;
-    width: 80%;
     margin: 20px auto;
-    font-size: 1.75em;
+    font-size: 2.5em;
+    line-height: 1.5em;
   }
 }
 
+
+
+// Body Sections
+
 .section {
-  padding: 30px 0;
+	padding-bottom: 100px;
+  
+  h2{
+	  font-size: 3em;
+  }
+  
+  p{
+	  font-size: 1.25em;
+		line-height: 1.75em;
+  }
 }
+
+.people{
+	text-align: center;
+	
+		.person{
+			width: 150px;
+			height: 200px;
+			margin: 0px auto;
+			background-color: #cecece;
+	}
+
+	
+}
+
+
+
+img{
+	background-position: center center;
+	background-size: cover;
+	width: 25%;
+	float: left;
+	padding: 0px 1px 1px 0px;
+	
+}
+
+.images{
+}
+
+.button{
+	width: 300px;
+	margin: 50px auto;
+	text-align: center;
+	
+	padding: 20px 30px;
+	border: 1px solid @dark-blue;
+	border-radius: 2px;
+	
+	color: @dark-blue;
+	font-size: 1.5em;
+	
+	.sans-serif-font; 
+	
+}
+
+.button:hover{
+	background-color: @dark-blue;
+	color: @light-beige;
+}
+
+
