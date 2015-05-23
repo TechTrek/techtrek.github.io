@@ -84,6 +84,13 @@ a:hover {
   height: 200px;
   margin: 0px auto;
   background-color: #cecece;
+  background-size: cover;
+}
+.people .derek {
+  background-image: url('/img/derek.jpg');
+}
+.people .reed {
+  background-image: url('/img/reed.jpg');
 }
 img {
   background-position: center center;
