@@ -92,6 +92,9 @@ a:hover {
 .people .reed {
   background-image: url('/img/reed.jpg');
 }
+.people .tiffany {
+  background-image: url('/img/tiffany.jpg');
+}
 img {
   background-position: center center;
   background-size: cover;
