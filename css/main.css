@@ -95,6 +95,9 @@ a:hover {
 .people .tiffany {
   background-image: url('/img/tiffany.jpg');
 }
+.people .ashna {
+  background-image: url('/img/ashna.jpg');
+}
 img {
   background-position: center center;
   background-size: cover;
