@@ -42,7 +42,7 @@ a:hover {
   width: 200px;
   position: absolute;
   top: 50px;
-  left: 280px;
+  left: 4%;
 }
 .cover-image {
   background-image: url("../img/bridge_g.jpg");

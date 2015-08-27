@@ -32,3 +32,5 @@ tramp
 .cask/
 
 mockups/*
+
+config.codekit
