@@ -1,0 +1,104 @@
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin: 0 0 10px;
+  color: #062946;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #393939;
+  margin: 0;
+}
+
+a {
+  color: #062946;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #062946;
+}
+
+header {
+  margin: 30px 0;
+}
+
+section {
+  margin: 0 0 60px 0;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+.cover-image {
+  background-image: url("../img/bridge_g.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  border-radius: 2px;
+
+}
+
+.photos {
+  display: flex;
+  width: 100%;
+}
+
+.photo {
+  margin-left: 10px;
+}
+
+.photo:first-child {
+  margin-left: 0;
+}
+
+.photo > img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.photo > p {
+  font-size: 0.8em;
+}
+
+.apply-button {
+  text-align: center;
+  padding: 10px;
+
+
+  background-color: #062946;
+  border-radius: 2px;
+}
+
+.apply-button > a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.4em;
+
+  color: white;
+}
+
+ul {
+  color: #393939;
+}
