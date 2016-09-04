@@ -102,3 +102,9 @@ body {
 ul {
   color: #393939;
 }
+
+.facebook-wrapper {
+  background: white;
+  border-radius: 2px;
+  padding: 14px 15px 10px;
+}
