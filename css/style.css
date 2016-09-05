@@ -81,6 +81,16 @@ body {
   font-size: 0.8em;
 }
 
+.quote {
+  font-size: 1em;
+}
+
+.name {
+  color: #062946;
+  font-size: 1.1em;
+  padding: 10px 10px 30px;
+}
+
 .apply-button {
   text-align: center;
   padding: 10px;
