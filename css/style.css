@@ -118,3 +118,14 @@ ul {
   border-radius: 2px;
   padding: 14px 15px 10px;
 }
+
+.founder {
+	  color: white;
+    font-size: 0.6em;
+    background-color: #062946;
+    border-radius: 2px;
+    padding: 0.2em 0.4em;
+    margin-bottom: 0.2em;
+    vertical-align: text-top;
+    margin-left: 10px;
+}
