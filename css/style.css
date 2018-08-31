@@ -81,6 +81,16 @@ body {
   font-size: 0.8em;
 }
 
+.quote {
+  font-size: 1em;
+}
+
+.name {
+  color: #062946;
+  font-size: 1.1em;
+  padding: 10px 10px 30px;
+}
+
 .apply-button {
   text-align: center;
   padding: 10px;
@@ -101,4 +111,21 @@ body {
 
 ul {
   color: #393939;
+}
+
+.facebook-wrapper {
+  background: white;
+  border-radius: 2px;
+  padding: 14px 15px 10px;
+}
+
+.founder {
+	  color: white;
+    font-size: 0.6em;
+    background-color: #062946;
+    border-radius: 2px;
+    padding: 0.2em 0.4em;
+    margin-bottom: 0.2em;
+    vertical-align: text-top;
+    margin-left: 10px;
 }
