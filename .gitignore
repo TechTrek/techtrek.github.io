@@ -34,3 +34,5 @@ tramp
 mockups/*
 
 config.codekit
+
+.DS_Store
